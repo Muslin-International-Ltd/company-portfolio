@@ -51,7 +51,7 @@ const ProjectCard = ({
             className="absolute bottom-0 p-8 justify-start w-full 
             flex-col bg-[rgba(122,122,122,0.5)] rounded-b-[24px] z-20">
             <div className="absolute inset-0 flex justify-end m-3">
-              <div
+              {/* <div
                 onClick={() => window.open(repo, '_blank')}
                 className="bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full 
                   flex justify-center items-center cursor-pointer
@@ -61,7 +61,7 @@ const ProjectCard = ({
                   alt="source code"
                   className="w-4/5 h-4/5 object-contain"
                 />
-              </div>
+              </div> */}
             </div>
 
             <h2
@@ -101,7 +101,7 @@ const ProjectCard = ({
                 className="btn-icon sm:w-[34px] sm:h-[34px] 
                   w-[30px] h-[30px] object-contain"
               />
-              LIVE DEMO
+              SITE LINK 
             </button>
           </div>
         </>
@@ -117,7 +117,7 @@ const Projects = () => {
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>Case Studies</p>
-        <h2 className={`${styles.sectionHeadTextLight}`}>Projects.</h2>
+        <h2 className={`${styles.sectionHeadTextLight}`}>We are alives.</h2>
       </motion.div>
 
       <div className="w-full flex">
