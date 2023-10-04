@@ -46,8 +46,8 @@ const Hero = () => {
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-            Garments, Fabric, Embroidery, Product  <br className="sm:block hidden" />
-              import and Export with Manufacturing Industry.
+            Trust, Commitment, and Reliable  <br className="sm:block hidden" />
+            Relationships to distribute high-quality products and services
             </p>
           </div>
           <div
