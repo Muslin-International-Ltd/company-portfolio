@@ -59,7 +59,9 @@ const Experience = () => {
           What I've done so far
         </p>
         <h2 className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem]`}>
-          Work Experience.
+          {/* done milestone */}
+          Milestone's
+
         </h2>
       </motion.div>
 
@@ -91,7 +93,7 @@ const Experience = () => {
                 />
               </div>
             }>
-            {/* <button
+            <button
               className="live-demo flex justify-between 
               sm:text-[18px] text-[14px] text-timberWolf 
               font-bold font-beckman items-center py-5 pl-3 pr-3 
@@ -116,14 +118,14 @@ const Experience = () => {
                   .querySelector('.download-btn')
                   .setAttribute('src', download);
               }}>
-               MY RESUME
+               Code of Conduct
               <img
                 src={download}
                 alt="download"
                 className="download-btn sm:w-[26px] sm:h-[26px] 
                 w-[23px] h-[23px] object-contain"
               /> 
-            </button>  */}
+            </button>  
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
