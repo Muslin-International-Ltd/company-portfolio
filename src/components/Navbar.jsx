@@ -20,19 +20,22 @@ const Navbar = () => {
             setActive('');
             window.scrollTo(0, 0);
           }}>
-          <img
+          {/* <img
             src={logo} // your logo comes here
             alt="logo"
             className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
-          />
+          /> */}
 
-          {/* if you have text you want besides your logo it comes here.
-          Otherwise delete this if you don't need it. */}
-          <img
-            src={logotext}
-            alt="logo"
-            className="sm:w-[90px] sm:h-[90px] w-[85px] h-[85px] -ml-[0.6rem] object-contain"
-          />
+          <h2 style={{ 
+                fontSize: '20px',
+                color: 'black',
+                fontWeight: 'bold',
+                border: '2px solid black', 
+                padding: '10px', 
+            }}>
+            MUSLIN INTERNATIONAL LIMITED
+          </h2>
+
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
           {navLinks.map((nav) => (

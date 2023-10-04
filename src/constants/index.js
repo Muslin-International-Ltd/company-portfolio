@@ -124,18 +124,18 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
+    title: 'ZONESPARKS - AN E-COMMERCE WEBSITE',
     company_name: 'Cover Hunt',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Aug 2021 ',
   },
   {
-    title: 'Mentor (Volunteer)',
+    title: 'CM-INVENTORY',
     company_name: 'Microverse',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'May 2023 - Sep 2023',
   },
   {
     title: 'Junior Software Engineer',
